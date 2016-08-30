@@ -1,0 +1,9 @@
+.homeSection p {
+  font-size: 80px;
+}
+.homeSection {
+  background-image: url('http://www.journeyetc.com/wp-content/uploads/2010/10/Muirfield1.jpg');
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-size: cover;
+}

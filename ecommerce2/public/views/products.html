@@ -1,0 +1,18 @@
+<div ng-hide="hidden"class="LoginKinda">
+  New?
+  Create username:<input type="text" placeholder="Enter username..."ng-model="newUser"><button type="button"ng-click="addUser(newUser)" >Submit</button>
+  Existing user?
+  Enter username:<input type="text" placeholder="Enter username..."ng-model="existingUser"><button type="button"ng-click="getUser(existingUser)" >Submit</button>
+</div>
+Logged in with username: {{currentUser.username}}<button type="button" ng-click="getAllUsers()">Get All Users</button>
+<div ng-repeat="user in usernames track by $index">
+  {{user}}
+  <button type="button" ng-click="deleteUser(user, $index)">Delete</button>
+</div>
+<div class="products" ng-repeat="product in products">
+Product Name: <c>{{product.title}}</c>
+Description: <c>{{product.description}}</c>
+Price: <c>${{product.price}}</c>
+{{product._id}}
+<button type="button" ng-click="addItem(product, currentUser)">Add to Cart</button>
+</div>

@@ -1,0 +1,30 @@
+body {
+  background-image: url('http://www.wpaperhd.com/uploads/originals/2016/02/15/basketball-court-nGXD.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+.playerInfo {
+  color: white;
+  font-family: sans-serif;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  margin-left: 5px;
+}
+input {
+  margin-left: 5px;
+  border-radius: 5px;
+}
+select {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.header {
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-size: 25px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  font-family: sans-serif;;
+}

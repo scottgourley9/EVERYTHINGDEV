@@ -1,0 +1,20 @@
+nav {
+  height: 20vh;
+  width: 100%;
+  background-image: url('http://orig07.deviantart.net/be2b/f/2011/170/8/a/above_the_sky_by_boomerama_llama-d3jddbq.jpg');
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+section {
+  font-family: sans-serif;
+  color: darkgreen;
+    text-shadow:
+    -1px -1px 0 #FFFF00,
+    1px -1px 0 #FFFF00,
+    -1px 1px 0 #FFFF00,
+    1px 1px 0 #FFFF00;
+
+}

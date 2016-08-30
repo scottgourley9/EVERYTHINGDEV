@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <title></title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body ng-controller="mainCtrl">
+    <div class="justUnderTop">
+      <input class="removeByText" placeholder="Write the text you want to remove..." ng-model="textToRemove.text"/>
+      <button ng-click="removeQuote(textToRemove)">Remove Quote</button>
+    </div>
+    <p id="">Filter: </p><input class="filter" placeholder="Write the text you want to filter by..."ng-model="filterByInput"/>
+
+    <div class="topSection">
+      <input class="input text" placeholder="Write the Quote here..." ng-model="userInput.text"/>
+      <input class="input author" placeholder="Write the Author here..." ng-model="userInput.author"/>
+      <button ng-click="add(userInput)">+</button>
+    </div>
+
+
+  <div ng-repeat="item in list | filter:filterByInput">
+    <div class="eachSection"><p>{{'"'+item.text+'"'}}<span>-{{item.author}}</span></p>
+    <button ng-click="remove($index)">x</button></div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/mainCtrl.js"></script>
+  <script type="text/javascript" src="js/myService.js"></script>
+
+  </script>
+
+  </script>
+  </body>
+</html>

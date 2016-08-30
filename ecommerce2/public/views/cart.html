@@ -1,0 +1,7 @@
+Your Cart
+<div class="cartItems" ng-repeat="item in cartItems track by $index">
+  {{item.title}}
+  {{item.description}}
+  {{item.price}}
+  <button type="button" ng-click="removeItem(item._id, $index)">Remove</button>
+</div>

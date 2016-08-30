@@ -1,0 +1,59 @@
+
+
+
+
+
+
+.topSection {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.scorer {
+  font-size: 25px;
+  font-family: fantasy;
+  font-weight: bold;
+}
+.score {
+  font-size: 25px;
+}
+button {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+  font-family: fantasy;
+  background-color: lightblue;
+  border-radius: 15px;
+
+}
+
+.card {
+  height: 17vh;
+  width: 17vw;
+  padding: 5px;
+  background: black;
+  position: relative;
+}
+.cover {
+  height: 17vh;
+  width: 17vw;
+  background color: blue;
+  z-index: 100;
+  position: absolute;
+}
+
+
+
+.mainSection {
+  background-color: black;
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+
+}

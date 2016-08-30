@@ -1,0 +1,18 @@
+body {
+}
+
+img {
+  height: 120px;
+  width: 80px;
+
+}
+section {
+  margin-top: 15px;
+
+}
+.sel {
+  visibility: hidden;
+}
+.nsel: {
+  background-color: red;
+}

@@ -1,0 +1,9 @@
+<input type="text" ng-model="productInput.title" placeholder="Enter product name"><input type="text" ng-model="productInput.description" placeholder="Enter description"><input type="text" ng-model="productInput.price" placeholder="Enter product price"><button type="button" ng-click="add(productInput)">Add Product</button>
+<div class="updateProducts" ng-repeat="product in products track by $index">
+Product Title: {{product.title}}
+Description: {{product.description}}
+Price: ${{product.price}}<button type="button" ng-click="delete(product, $index)">Delete</button><button ng-click="select($index)"type="button">Update</button>
+<input ng-show="$index === selected"ng-hide="hidden"type="text" ng-model="updateInput.title" placeholder="Enter product title"><input ng-show="$index === selected"type="text" ng-model="updateInput.description" placeholder="Enter product description"><input ng-show="$index === selected"type="text" ng-model="updateInput.price" placeholder="Enter product price">
+<button ng-show="$index === selected"type="button" ng-click="theUpdate(product, updateInput, $index)">Submit Changes</button>
+<button ng-show="$index === selected"type="button" ng-click="cancel()">Cancel</button>
+</div>

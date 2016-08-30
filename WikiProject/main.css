@@ -1,0 +1,51 @@
+.top-section {
+  background-color: white;
+  width: 70%;
+  margin: 30px auto;
+  line-height: 1.5;
+
+}
+.top-section strong {
+  font-weight: bold;
+}
+.top-section p {
+  text-align: justify;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.top-section a {
+  color: blue;
+  text-decoration: none;
+}
+.top-section a:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+.welcome {
+  text-align: justify;
+  margin-bottom: 25px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 25px;
+  padding-left: 400px;
+}
+.welcome h2 {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: white;
+
+}
+}
+.img-links {
+  background-color: white;
+  width: 70%;
+  padding-left: 0px;
+
+
+}
+.img-links img {
+  width: 150px;
+  height: 150px;
+}

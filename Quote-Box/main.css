@@ -1,0 +1,37 @@
+.eachSection {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  background-color: lightgrey;
+  justify-content: space-between;
+  padding: 10px;
+}
+.topSection {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  background-color: lightgrey;
+  padding: 10px;
+  justify-content: space-between;
+}
+.input {
+  display: flex;
+  height: 9vh;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: grey;
+  margin-top: 15px;
+  width: 400px;
+  font-size: 20px;
+}
+
+button {
+  font-size: 40px;
+  border-radius: 15px;
+  margin-left: 15px;
+}
+.filter {
+  font-size: 20px;
+}
